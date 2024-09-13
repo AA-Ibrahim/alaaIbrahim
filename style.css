@@ -28,6 +28,9 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px 15px 10px 15px;
     padding: 3px 3px 3px 3px;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
 }
 #nav-bar {
     background-color: rgb(223, 199, 127);
