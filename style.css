@@ -21,3 +21,20 @@ img {
     border-radius: 50%;
     width: 35%;
 }
+.nav {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 15px 10px 15px;
+    padding: 3px 3px 3px 3px;
+}
+#nav-bar {
+    background-color: rgb(223, 199, 127);
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    border-radius: 20px;
+    opacity: 75%;
+    backdrop-filter: blur(5px);
+}
