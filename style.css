@@ -36,6 +36,8 @@ img {
     background-color: rgb(223, 199, 127);
     text-align: center;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
     width: 700px;
     border-radius: 20px;
     opacity: 75%;
