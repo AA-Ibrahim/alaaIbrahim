@@ -1,5 +1,12 @@
+/* CSS HEX 
+--ecru: #e5c285ff;
+--ebony: #414d36ff;
+--reseda-green: #788d73ff;
+--sage: #b0ae93ff;
+--parchment: #f3ecd3ff; */
+
 body {
-    background-color: rgb(30, 25, 25);
+    background-color: #788d73ff;
 }
 
 h1 {
@@ -30,16 +37,21 @@ img {
     padding: 3px 3px 3px 3px;
     font-style: normal;
     text-decoration: none;
-    color: black;
+    color: #414d36ff;
+}
+.nav:hover{
+    color: #f3ecd3ff;
 }
 #nav-bar {
-    background-color: rgb(223, 199, 127);
+    background-color: #b0ae93ff;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 20px;
     width: 700px;
-    border-radius: 20px;
+    border-radius: 15px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #e5c285ff;
     opacity: 75%;
-    backdrop-filter: blur(5px);
 }
