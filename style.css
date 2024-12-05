@@ -1,23 +1,78 @@
-body {
-    background-color: rgb(30, 25, 25);
+
+/* Background container */
+.bg {
+    position: fixed; /* Ensures it stays in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Push it behind the content */
+    overflow: auto;
+    background-color: black;
+}
+
+/* Background image */
+.bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('signal-hill.jpeg') no-repeat center center/cover;
+    background-size: 100% 100%;
+    filter: blur(30px); /* Adjust the blur intensity */
+}
+
+/* Content on top of the background */
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+head, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
 }
 
 h1 {
     text-align: center;
-    color: wheat;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-family: papyrus;
+    font-size: 80px;
+    margin-bottom: 5px;
 }
 
 h2 {
     text-align: center;
-    color: wheat;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-family: papyrus;
 }
 
-img {
+h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: papyrus;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+#wrapper {background-color: rgb(31, 27, 27);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    width: 35%;
+    overflow: hidden;
+}
+
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120%;
+    margin: -75px 0px 0px -35px;
 }
