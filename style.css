@@ -19,7 +19,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('signal-hill.jpeg') no-repeat center center/cover;
+    background: url('images/signal-hill.jpeg') no-repeat center center/cover;
     background-size: 100% 100%;
     filter: blur(30px); /* Adjust the blur intensity */
 }
